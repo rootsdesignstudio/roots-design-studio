@@ -108,10 +108,12 @@
   <section id="projects" class="py-16 container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-8">Our Projects</h2>
     <div class="grid md:grid-cols-3 gap-8">
-      <img src="images/2.jpg" class="rounded-lg shadow" alt="Project 1">
-      <img src="images/1_4-Photo.jpg" class="rounded-lg shadow" alt="Project 2">
-      <img src="images/5.jpg" class="rounded-lg shadow" alt="Project 3">
-      
+      <img src="images/2.jpg" class="images" alt="Project 1">
+      <img src="images/benco-02-final.JPG" class="images" alt="Project 1">
+      <img src="images/kamaraj 1.jpg" class="images" alt="Project 1">
+      <img src="images/school01-Copy.JPG" class="images" alt="Project 1">
+      <img src="images/1_4-Photo.jpg" class="images" alt="Project 2">
+      <img src="images/5.jpg" class="images" alt="Project 3">  
     </div>
   </section>
 
@@ -119,16 +121,38 @@
   <section id="contact" class="py-16 bg-gray-100">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
-      <form class="max-w-lg mx-auto space-y-4">
-        <input type="text" placeholder="Your Name" class="w-full border p-3 rounded-lg">
-        <input type="email" placeholder="Your Email" class="w-full border p-3 rounded-lg">
-        <textarea placeholder="Your Message" class="w-full border p-3 rounded-lg h-32"></textarea>
-        <a href="mailto:enquiry@rootsdesignstudio.co.in">
-        <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600" >Send Message</button>
-      </a>
-      </form>
+<div class="contact">
+      <div class="flex justify-center items-center my-2.5 mx-2.5">
+        <a href="https://wa.me/919444460500" target="_blank">
+      <button class="bg-transparent text-black px-6 py-3 rounded-lg hover:bg-blue-600 flex items-center gap-2 justify-center">
+  <img src="images/whatsapp.png" class="w-8 h-8" alt="WhatsApp">
+  <span>WhatsApp</span>
+</button></a>
+</div>
+
+<div class="flex justify-center items-center my-2.5 mx-2.5">
+  <a href="mailto:enquiry@rootsdesignstudio.co.in" target="_blank">
+      <button class="bg-transparent text-black px-6 py-3 rounded-lg hover:bg-blue-600 flex items-center gap-2 justify-center">
+  <img src="images/email.png" class="w-8 h-8" alt="email">
+  <span>E-mail</span>
+</button>
+</a>
+</div>
+
+<div class="flex justify-center items-center my-2.5 mx-2.5">
+  <a href="https://www.instagram.com/roots.design.studio" target="_blank">
+      <button class="bg-transparent text-black px-6 py-3 rounded-lg hover:bg-blue-600 flex items-center gap-2 justify-center">
+  <img src="images/instagram.png" class="w-8 h-8" alt="instagram">
+  <span>instagram</span>
+</button>
+</a>
+</div>
+
+
+</div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer class="bg-gray-900 text-white py-6 text-center">
@@ -176,6 +200,21 @@
 .my-float {
     margin-top: 16px;
 }
+
+.images {
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+
+}
+.contact {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
 </style>
 
 </body>
